@@ -1,0 +1,20 @@
+# Compilados y build de Maven
+target/
+*.class
+
+# Configuración de IDE (launch.json trae tu contraseña de Supabase)
+.vscode/
+.idea/
+.antigravity/
+*.iml
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
