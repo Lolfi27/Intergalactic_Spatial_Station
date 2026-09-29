@@ -23,15 +23,14 @@ public class DBConnection {
 
     private static final String URL = System.getenv().getOrDefault(
             "SUPABASE_DB_URL",
-            "jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require");
-
+            "jdbc:postgresql://aws-0-us-east-2.pooler.supabase.com:5432/postgres?sslmode=require");
     private static final String USER = System.getenv().getOrDefault(
             "SUPABASE_DB_USER",
-            "postgres.TU_PROJECT_REF");
+            "postgres.xsgwaqhhbdopbpddkaxw");
 
     private static final String PASSWORD = System.getenv().getOrDefault(
             "SUPABASE_DB_PASSWORD",
-            "TU_PASSWORD_AQUI");
+            "[PASSWORD]");
 
     static {
         try {
